@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{  
+  font-family: 'Poppins', sans-serif;
+  padding:0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 10px;
+  box-shadow: 0 0 3px 0 rgb(7, 17, 195);
+
+}
+.header svg{
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: #0d6ce0;
+}
+.menu{
+  justify-content: left;
+  margin:5px 20px 0px 0px;
+  color: #0d6ce0;
+
+}
+.header h1 {
+  color: #0761d0;
+  font-size: 2rem;
+  font-weight: 600;
+  margin:0px 0px 5px 5px;
+}
+
+.logopic{
+  padding-right: 10px;
+}
+.search {
+  display: flex;
+  margin-left: 80px;
+}
+.searchTerm {
+  width: 500px;
+  border: 2px solid #4e7de3;
+  padding: 8px;
+  height:48px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 17px;
+}
+
+.searchButton {
+  width: 70px;
+  height: 48px;
+  background: #1a2ad1;
+ border: #1a2ad1;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.search div svg{
+  margin-top: 9px;
+  color: white;
+}
+
+.refresh  svg{
+margin:3px 0px 5px 90px;
+font-size: 45px;
+float: right;
+
+}
+.github svg{
+  margin:5px 20px 0px 80px;
+ font-size: 40px;
+ }
+
+form {
+  position:relative;
+  top:10px;
+  bottom: 0%;
+  width: 600px;
+  margin: 25px auto 25px auto;
+  background: #fff;
+  padding: 14px;
+  border-radius: 7px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: large;
+}
+
+form input {
+  width: 100%;
+  border: none;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+form button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 18px;
+  bottom: -18px;
+  background: rgb(35, 55, 208);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  outline: none;
+}
+.note{
+position: relative;
+top: 50px;
+left:50px;
+right: 50px;
+
+}
+.note-container {
+  background: #ffffff;
+  width: 250px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 1rem;
+  color: #333031;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  color: #5b76c4;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.footer {
+ background-color: #2a3aeb;
+ position: fixed;
+ bottom: 0%;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer svg{
+margin: 0px 20px 0px 20px;
+ font-size: 30px;
+ color: white;
+}
+@media(max-width:1200px){
+  .github svg{
+    margin:5px 20px 0px 50px;
+  }
+  .refresh  svg{
+    margin:3px 0px 5px 50px; 
+  }
+  .header{
+    width:100%;
+  }
+}
+
+@media (max-width:990px){
+.searchTerm{
+  width:300px;
+}
+.search div svg{
+  width: fit-content;
+}
+.header{
+  width:100%;
+}
+
+.note{
+  position: relative;
+  top:50px;
+  left:60px;
+  right: 70px;
+  }
+
+}
+
+@media (max-width:800px){
+  .searchTerm{
+    width:150px;
+  }
+  .search{
+    margin-left:50px;
+  }
+  .header{
+    width:100%;
+  }
+  .note{
+    position: relative;
+    top: 50px;
+    left:70px;
+    right: 50px;
+    
+    }
+
+  .menu{
+    margin-left:0px;
+    margin-right: 0%;
+  }
+  .form{
+    width: 350px;
+    }
+  }
+  @media (max-width:700px){
+    
+  }
